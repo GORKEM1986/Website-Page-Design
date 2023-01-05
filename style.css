@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid magenta;
+  align-items: center;
+  padding: 2.5rem;
+  background-color: #35424a;
+}
+
+header div h2 {
+  color: #a9508b;
+  padding: 1rem;
+  font-size: 2rem;
+}
+h2 span {
+  color: white;
+}
+#home {
+  color: #a9508b;
+  font-size: 1.2rem;
+}
+
+header div a {
+  font-size: 1.2rem;
+  color: white;
+  padding: 1rem;
+}
+
+.web {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  background-image: url(./showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.web h1 {
+  font-size: 2.5rem;
+}
+.web p {
+  font-size: 1.2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 3rem;
+  background-color: #35424a;
+  position: sticky;
+}
+
+form input {
+  padding: 0.4rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #e8491d;
+  padding: 0.4rem 0.5rem;
+  height: 2rem;
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+button :hover {
+  cursor: pointer;
+  color: white;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3rem;
+  height: 510px;
+}
+section h3 {
+  padding: 1rem;
+}
+section p {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #35424a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-flow: column; */
+  flex-direction: column;
+}
+
+footer span {
+  color: white;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
